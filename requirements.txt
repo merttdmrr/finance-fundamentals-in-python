@@ -1,0 +1,19 @@
+# --- Veri Analizi ve Manipülasyon ---
+pandas
+numpy
+
+# --- Finansal Hesaplamalar ---
+# DataCamp kursundaki pv, fv, pmt, irr gibi fonksiyonlar artık bu pakettedir.
+numpy-financial
+
+# --- Veri Görselleştirme ---
+matplotlib
+seaborn
+
+# --- Finansal Veri Çekme (Opsiyonel ama önerilir) ---
+# Yahoo Finance'den gerçek veri çekmek istersen işine yarar.
+yfinance
+
+# --- Geliştirme Ortamı ---
+jupyter
+ipykernel
