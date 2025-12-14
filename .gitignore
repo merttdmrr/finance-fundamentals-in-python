@@ -1,0 +1,34 @@
+# --- Python Derleme Dosyaları ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook ---
+# Notebook checkpoint'leri reponu kirletir, bunları mutlaka engellemeliyiz.
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Veri Dosyaları (Finans Projeleri İçin) ---
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+data/
+
+# --- Ortam ve Sanal Ortamlar (Environment) ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- IDE ve İşletim Sistemi Dosyaları ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Finansal Veri Kütüphaneleri Önbelleği ---
+# Bazen yfinance gibi kütüphaneler cache tutabilir
+.cache/
